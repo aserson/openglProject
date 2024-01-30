@@ -52,11 +52,6 @@ int main(void)
             -0.5f,  0.5f  // 3
         };
 
-        unsigned int indices[] = {
-            0, 1, 2, // first triangle
-            2, 3, 0  // second triangle
-        };
-
         VertexArray va;
         VertexBuffer vb(positions, 4 * 2 * sizeof(float));
 
